@@ -18,6 +18,8 @@
 		551282C329BF4B92004EE0B4 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551282C229BF4B92004EE0B4 /* GlobalHelpers.swift */; };
 		551282C529BF5AD7004EE0B4 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551282C429BF5AD7004EE0B4 /* HomeVM.swift */; };
 		551282C729C219A0004EE0B4 /* TopMoviewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551282C629C219A0004EE0B4 /* TopMoviewPreview.swift */; };
+		551282C929C26CE9004EE0B4 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551282C829C26CE9004EE0B4 /* SmallVerticalButton.swift */; };
+		551282CB29C2747E004EE0B4 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551282CA29C2747E004EE0B4 /* WhiteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		551282C229BF4B92004EE0B4 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		551282C429BF5AD7004EE0B4 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		551282C629C219A0004EE0B4 /* TopMoviewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviewPreview.swift; sourceTree = "<group>"; };
+		551282C829C26CE9004EE0B4 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
+		551282CA29C2747E004EE0B4 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				551282AB29BF3650004EE0B4 /* NetflixCloneApp.swift */,
 				551282B929BF3DA0004EE0B4 /* HomeView.swift */,
 				551282C629C219A0004EE0B4 /* TopMoviewPreview.swift */,
+				551282C829C26CE9004EE0B4 /* SmallVerticalButton.swift */,
+				551282CA29C2747E004EE0B4 /* WhiteButton.swift */,
 				551282C429BF5AD7004EE0B4 /* HomeVM.swift */,
 				551282BE29BF4639004EE0B4 /* Movie.swift */,
 				551282C029BF4B1F004EE0B4 /* StandardHomeMovie.swift */,
@@ -171,6 +177,8 @@
 				551282C729C219A0004EE0B4 /* TopMoviewPreview.swift in Sources */,
 				551282BF29BF4639004EE0B4 /* Movie.swift in Sources */,
 				551282AC29BF3650004EE0B4 /* NetflixCloneApp.swift in Sources */,
+				551282C929C26CE9004EE0B4 /* SmallVerticalButton.swift in Sources */,
+				551282CB29C2747E004EE0B4 /* WhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

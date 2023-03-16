@@ -27,7 +27,6 @@ struct TopMoviewPreview: View {
 				.clipped()
 			VStack {
 				Spacer()
-				
 				HStack {
 					ForEach(movie.categories, id: \.self) { category in
 						HStack {
@@ -41,8 +40,46 @@ struct TopMoviewPreview: View {
 						}
 					}
 				}
-				Text("Raw of buttons")
+				HStack {
+					Spacer()
+					SmallVerticalButton(
+						text: "My List",
+						isOnImage: "checkmark",
+						isOffImage: "plus",
+						isOn: true) {
+							// action
+						}
+					Spacer()
+					WhiteButton(
+						text: "Play",
+						imageString: "play.fill") {
+							// action
+						}
+						.frame(width: 150)
+					Spacer()
+					SmallVerticalButton(
+						text: "Info",
+						isOnImage: "info.circle",
+						isOffImage: "info.circle",
+						isOn: true) {
+							
+						}
+					Spacer()
+				}
 			}
+			.background(
+				LinearGradient(
+					gradient: Gradient(
+						colors:
+							[
+								.black.opacity(0.0),
+								.black.opacity(0.95)
+							]
+					),
+					startPoint: .top,
+					endPoint: .bottom
+				)
+			)
 		}
 		.foregroundColor(.white)
     }
