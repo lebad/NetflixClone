@@ -68,17 +68,8 @@ struct TopMoviewPreview: View {
 				}
 			}
 			.background(
-				LinearGradient(
-					gradient: Gradient(
-						colors:
-							[
-								.black.opacity(0.0),
-								.black.opacity(0.95)
-							]
-					),
-					startPoint: .top,
-					endPoint: .bottom
-				)
+				LinearGradient.backOpacityGradient
+					.padding(.top, 200)
 			)
 		}
 		.foregroundColor(.white)
@@ -87,6 +78,6 @@ struct TopMoviewPreview: View {
 
 struct TopMoviewPreview_Previews: PreviewProvider {
     static var previews: some View {
-		TopMoviewPreview(movie: exampleMovie1)
+		TopMoviewPreview(movie: exampleMovie2)
     }
 }
