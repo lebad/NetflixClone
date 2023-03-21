@@ -50,7 +50,7 @@ struct TopMoviewPreview: View {
 							// action
 						}
 					Spacer()
-					WhiteButton(
+					PlayButton(
 						text: "Play",
 						imageString: "play.fill") {
 							// action

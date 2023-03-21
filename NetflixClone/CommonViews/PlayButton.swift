@@ -1,5 +1,5 @@
 //
-//  WhiteButton.swift
+//  PlayButton.swift
 //  NetflixClone
 //
 //  Created by Andrey Lebedev on 16.03.2023.
@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct WhiteButton: View {
+struct PlayButton: View {
 	var text: String
 	var imageString: String
+	var backgroundColor = Color.white
 	
 	var action: () -> Void
 
@@ -29,8 +30,8 @@ struct WhiteButton: View {
 				Spacer()
 			}
 			.padding(.vertical, 6)
-			.foregroundColor(.black)
-			.background(.white)
+			.foregroundColor(backgroundColor == .white ? .black : .white)
+			.background(backgroundColor)
 			.cornerRadius(3)
 		}
 	}
@@ -41,7 +42,7 @@ struct WhiteButton_Previews: PreviewProvider {
 		ZStack {
 			Color.black
 				.edgesIgnoringSafeArea(.all)
-			WhiteButton(text: "Play", imageString: "play.fill") {
+			PlayButton(text: "Play", imageString: "play.fill") {
 				print("action")
 			}
 		}
